@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="section">
+      <div class="container">
+        <h2 class="section__title">Наша команда</h2>
+        <div class="slider">
+          <ul class="team-list">
+            <li class="team-item">
+              <div class="team__photo-box">
+                <img
+                  srcset="
+                    ./img/demyanenko.jpg   270w,
+                    ./img/demyanenkox2.jpg 540w,
+                    ./img/demyanenkox3.jpg 810w
+                  "
+                  src="./img/demyanenko.jpg"
+                  alt="demyanenko"
+                  class="team__member-photo"
+                  sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw"
+                />
+              </div>
+            </li>
+            <li class="team-item">
+              <div class="team__photo-box">
+                <img
+                  srcset="
+                    ./img/repina.jpg   270w,
+                    ./img/repinax2.jpg 540w,
+                    ./img/repinax3.jpg 810w
+                  "
+                  src="./img/repina.jpg"
+                  alt="repina"
+                  class="team__member-photo"
+                  sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw"
+                />
+              </div>
+            </li>
+            <li class="team-item">
+              <div class="team__photo-box">
+                <img
+                  srcset="
+                    ./img/tarasov.jpg   270w,
+                    ./img/tarasovx2.jpg 540w,
+                    ./img/tarasovx3.jpg 810w
+                  "
+                  src="./img/tarasov.jpg"
+                  alt="tarasov"
+                  class="team__member-photo"
+                  sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw"
+                />
+              </div>
+            </li>
+            <li class="team-item">
+              <div class="team__photo-box">
+                <img
+                  srcset="
+                    ./img/ermakov.jpg   270w,
+                    ./img/ermakovx2.jpg 540w,
+                    ./img/ermakovx3.jpg 810w
+                  "
+                  src="./img/ermakov.jpg"
+                  alt="ermakov"
+                  class="team__member-photo"
+                  sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw"
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button type="button" class="back"></button>
+        <button type="button" class="next"></button>
+      </div>
+    </div>
+    <script src="./slide.js"></script>
+  </body>
+</html>
